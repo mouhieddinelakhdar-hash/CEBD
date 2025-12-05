@@ -19,6 +19,7 @@ actions = {
     "q": quitter
 }
 
+
 # Fonctions d'affichage du menu
 def menu():
     print("\n=== Menu principal ===")
