@@ -1,4 +1,5 @@
 DROP TRIGGER IF EXISTS trg_equipe_min_deux;
+-- drop trigger first then all whaht we need is to verfier that the number of sportifs after deleteing is always > 2 else we raise
 CREATE TRIGGER trg_equipe_min_deux
 AFTER DELETE ON Membre_Equipe
 FOR EACH ROW
